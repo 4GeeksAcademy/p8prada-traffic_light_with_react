@@ -6,7 +6,7 @@ var cycle = "off";
 var intervalId;
 
 // Show or Hide the purple light and change the "add purple" button behavior
-function purpleLight(){
+function purpleTrafficLight(){
 	var btn_PurpleLight = document.getElementById("btn_purpleLight");
 
 	document.getElementById("purpleLight").classList.toggle("d-none");
@@ -79,8 +79,8 @@ const Home = () => {
 
 				<div className="row">
 					<div className="col-12 d-flex justify-content-center">
-						<button typer="button" id="btn_startCycle" className="button btn btn-outline-primary mt-4 mx-2" onClick={() => lightsCycle()}>Start Cycle</button>
-						<button typer="button" id="btn_purpleLight" className="button btn btn-outline-success mt-4 mx-2" onClick={() => purpleLight()}>Add Purple</button>
+						<button typer="button" id="btn_startCycle" className="button btn btn-outline-primary mt-4 mx-2" onClick={() => cycleColor()}>Start Cycle</button>
+						<button typer="button" id="btn_purpleLight" className="button btn btn-outline-success mt-4 mx-2" onClick={() => purpleTrafficLight()}>Add Purple</button>
 					</div>
 				</div>
 		</div>
