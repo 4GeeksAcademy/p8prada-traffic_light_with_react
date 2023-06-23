@@ -1,14 +1,16 @@
-#wrapper{
+body{
     display: flex;
     justify-content: center;
+}
+
+#wrapper{
     margin-left: auto;
     margin-right: auto;
-    width: 0px;
+    width: 350px;
 }
 
 .stick{
-    display: flex;
-    justify-content: center;
+
     background-color: black;
     height: 80px;
     width: 50px;
@@ -17,12 +19,11 @@
     border-top-style: hidden;
     border-bottom-style: hidden;
 }
+
 .trafficLightBox{
     background-color: black;
-    height: 380px;
     padding: 10px;
     border-radius: 20px;
-    margin-top: 80px;
     border-color: grey;
     border-style: solid;
 }
@@ -38,7 +39,13 @@
 .red{background-color: red;}
 .yellow{background-color: yellow;}
 .green{background-color: green;}
+.purple{background-color: purple;}
 
 .glowRed{box-shadow: 0px 0px 25px 10px red;}
 .glowYellow{box-shadow: 0px 0px 25px 10px yellow;}
 .glowGreen{box-shadow: 0px 0px 25px 10px green;}
+.glowPurple{box-shadow: 0px 0px 25px 10px purple;}
+
+.button{
+    width: 200px;
+}
